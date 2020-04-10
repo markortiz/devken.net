@@ -4,14 +4,15 @@ html {
 
 .App {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .App-logo {
   height: 40vmin;
 }
-
 .App-header {
-  /* background-color: #eee; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,19 +20,13 @@ html {
   font-size: calc(10px + 2vmin);
   color: #fff;
   position: absolute;
-  min-width: 20rem;
-  width: 50vw;
-  height: 50vh;
-  margin: -25vh 0 0 -25vw;
-  border-radius: 0.25rem;
-  top: 50%;
-  left: 50%;
+  pointer-events: none;
 }
 
 .App-links {
   display: flex;
   min-width: 10rem;
-  width: 50%;
+  width: 100%;
   justify-content: space-between;
 }
 
@@ -39,6 +34,7 @@ html {
   color: #fff;
   font-size: 3rem;
   display: inline;
+  pointer-events: initial;
 }
 
 .App-bg {
