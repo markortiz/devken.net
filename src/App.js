@@ -19,7 +19,7 @@ function App() {
           <h1 className="App-title red">Hi there! <span className="">I’m Ken,</span></h1>
         </header>
         <main className="App-main">
-          <p>a Frontend Engineer with {yearsOfExperience()} years of professional experience.</p>
+          <p>A Frontend Engineer with {yearsOfExperience()} years of professional experience.</p>
           <p>I started coding when I was 15, creating CSS templates for my social media account, and that’s when I got hooked into coding. </p>
           <p>Currently, I’m developing small to large scale applications like as simple as landing pages to extensive and complex applications using modern web technologies such as:</p>
           <ul>
