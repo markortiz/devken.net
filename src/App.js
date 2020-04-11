@@ -1,4 +1,6 @@
 import React from "react";
+import "./assets/css/normalizer.css";
+import "./assets/css/flexboxgrid.css";
 import "./App.css";
 
 function App() {
