@@ -1,6 +1,3 @@
-* {
-  font-family: 'Fira Code', monospace;
-}
 html {
   background: #202020;
   color: #fff;
@@ -11,6 +8,7 @@ html {
   text-shadow: 2px 2px 5px #000000;
 }
 .App {
+  font-family: 'Fira Code', monospace;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,10 +26,12 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(16px + 1vmin);
 }
 .App-title {
   margin-bottom: 0;
+}
+.App-title span {
+  display: inline-block;
 }
 .App-main {
   font-size: calc(16px + 0.5vmin);
