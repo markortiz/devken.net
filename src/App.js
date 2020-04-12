@@ -16,6 +16,10 @@ function App() {
     <div className="App">
       <div className="App-wrapper">
         <header className="App-header">
+          <nav className="App-menu">
+            <a className="link" href="#">Home</a>
+            <a className="link" href="#">My Works</a>
+          </nav>
         </header>
         <main className="App-main">
           <h1 className="App-title red">Hi there! <span className="">I’m Ken,</span></h1>
@@ -46,8 +50,8 @@ function App() {
           </ul>
           <p>
             And oh, did I mention that I’m also trying to be a Fullstack Javascript developer?
-            If you wanna hire me, just reach me at my email 
-            <strong> <a className="red" href="mailto:markkennethortiz@gmail.com">markkennethortiz@gmail.com</a></strong>.
+            If you wanna hire me, just reach me at my email &nbsp;
+            <strong><a className="red" href="mailto:markkennethortiz@gmail.com">markkennethortiz@gmail.com</a></strong>.
           </p>
         </main>
         <section className="App-links">
