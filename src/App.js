@@ -16,9 +16,9 @@ function App() {
     <div className="App">
       <div className="App-wrapper">
         <header className="App-header">
-          <h1 className="App-title red">Hi there! <span className="">I’m Ken,</span></h1>
         </header>
         <main className="App-main">
+          <h1 className="App-title red">Hi there! <span className="">I’m Ken,</span></h1>
           <p>A Frontend Engineer with {yearsOfExperience()} years of professional experience.</p>
           <p>I started coding when I was 15, creating CSS templates for my social media account, and that’s when I got hooked into coding. </p>
           <p>Currently, I’m developing small to large scale applications like as simple as landing pages to extensive and complex applications using modern web technologies such as:</p>
@@ -35,19 +35,19 @@ function App() {
           <p>I’m always fascinated by micro-services and micro-frontends architecture for complex applications where I use containerization technologies such as Docker and Kubernetes</p>
           <p>
             A big fan of:
-            <ul>
-              <li>I write Clean Code so humans can understand it</li>
-              <li>Pushing performant code</li>
-              <li>Writing slick tests</li>
-              <li>Composing demos using Storybook</li>
-              <li>Automating boring and repetitive stuff</li>
-              <li>CI and CD </li>
-            </ul>
           </p>
+          <ul>
+            <li>I write Clean Code so humans can understand it</li>
+            <li>Pushing performant code</li>
+            <li>Writing slick tests</li>
+            <li>Composing demos using Storybook</li>
+            <li>Automating boring and repetitive stuff</li>
+            <li>CI and CD </li>
+          </ul>
           <p>
             And oh, did I mention that I’m also trying to be a Fullstack Javascript developer?
             If you wanna hire me, just reach me at my email 
-            <strong> <a class="red" href="mailto:markkennethortiz@gmail.com">markkennethortiz@gmail.com</a></strong>.
+            <strong> <a className="red" href="mailto:markkennethortiz@gmail.com">markkennethortiz@gmail.com</a></strong>.
           </p>
         </main>
         <section className="App-links">
