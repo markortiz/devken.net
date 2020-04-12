@@ -38,7 +38,7 @@ html {
   text-decoration: none;
 }
 .App-menu .link:hover,
-.App-menu .link:active {
+.App-menu .link.active {
   border-bottom: 1px solid #CC0000;
 }
 .App-menu .link.active {
@@ -57,17 +57,4 @@ html {
 .App-main p,
 .App-main ul {
   margin-top: 2rem;
-}
-.App-links {
-  display: flex;
-  margin-top: 2rem;
-  min-width: 10rem;
-  width: 100%;
-  justify-content: space-between;
-}
-.App-link {
-  color: #fff;
-  font-size: 3rem;
-  display: inline;
-  pointer-events: initial;
 }
