@@ -17,7 +17,7 @@ function App() {
       <div className="App-wrapper">
         <header className="App-header">
           <nav className="App-menu">
-            <a className="link" href="#">Home</a>
+            <a className="link active" href="#">Home</a>
             <a className="link" href="#">My Works</a>
           </nav>
         </header>
@@ -49,9 +49,8 @@ function App() {
             <li>CI and CD </li>
           </ul>
           <p>
-            And oh, did I mention that I’m also trying to be a Fullstack Javascript developer?
-            If you wanna hire me, just reach me at my email &nbsp;
-            <strong><a className="red" href="mailto:markkennethortiz@gmail.com">markkennethortiz@gmail.com</a></strong>.
+            You can visit my <strong><a className="red" href="https://github.com/markortiz" target="_blank">Github</a></strong> if you wanna know what else I'm doing.
+            Or you can also reach me at my <strong><a className="red" href="https://www.linkedin.com/in/mark-ortiz/" target="_blank">LinkedIn</a></strong> and <strong><a className="red" href="mailto:markkennethortiz@gmail.com">markkennethortiz@gmail.com</a></strong>.
           </p>
         </main>
         <section className="App-links">
