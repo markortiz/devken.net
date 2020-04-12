@@ -53,33 +53,6 @@ function App() {
             Or you can also reach me at my <strong><a className="red" href="https://www.linkedin.com/in/mark-ortiz/" target="_blank">LinkedIn</a></strong> and <strong><a className="red" href="mailto:markkennethortiz@gmail.com">markkennethortiz@gmail.com</a></strong>.
           </p>
         </main>
-        <section className="App-links">
-          <a
-            className="App-link"
-            href="https://www.linkedin.com/in/mark-ortiz"
-            target="_blank"
-            title="LinkedIn"
-            rel="noopener noreferrer"
-          >
-            <i className="fa fa-linkedin-square" aria-hidden="true"></i>
-          </a>
-          <a
-            className="App-link"
-            href="https://github.com/markortiz"
-            title="Git"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fa fa-github-square" aria-hidden="true"></i>
-          </a>
-          <a
-            className="App-link"
-            href="mailto:markkennethortiz@gmail.com"
-            title="Email me"
-          >
-            <i className="fa fa-envelope" aria-hidden="true"></i>
-          </a>
-        </section>
       </div>
     </div>
   );
