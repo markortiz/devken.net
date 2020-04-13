@@ -1,6 +1,9 @@
-import React from "react";
+import React from 'react';
 // CSS
-import "./Works.css";
+import './Works.css';
+
+// Images
+import reactGalleryAppSm from '../../assets/images/react-app-gallery_sm.png';
 
 function Works() {
   return (
@@ -9,11 +12,13 @@ function Works() {
 
       <a href="#animals" className="Work-item row">
         <figure className="Work-figure col-xs-12 col-md-4">
-          <img src="https://placeimg.com/640/480/animals" alt="Animals"  />
+          <img alt="React Gallery App"
+            loading="lazy"
+            src={reactGalleryAppSm}/>
         </figure>
         <article className="Work-description col-xs-12 col-md-8">
-          <h2 className="Work-title red">Google Chrome</h2>
-          <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+          <h2 className="Work-title red">Gallery App with Infinite Scroll</h2>
+          <p>A sample gallery app that consume api from Unsplash that could search, inifinite scroll and have an advance option. </p>
         </article>
       </a>
     </main>
