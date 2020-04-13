@@ -1,0 +1,39 @@
+.Work-item {
+  color: #FFFFFF;
+  display: flex;
+  flex: 1 1 0px;
+  font-size: calc(16px + 0.5vmin);
+  transition: transform 500ms;
+  margin: 2rem 0;
+  border: 1px solid #CC0000;
+  border-radius: 0.3rem;
+  padding: 1rem 0;
+  text-decoration: none;
+  transition: transform 10ms;
+}
+
+.Work-item.row {
+  margin: 2rem 0;
+}
+
+.Work-item:hover {
+  transform: scale(1.01);
+  transition: transform 10ms;
+}
+
+.Work-figure {
+  margin: 0;
+}
+
+.Work-figure img {
+  display: block;
+  max-width: 100%;
+}
+
+.Work-description {
+  text-decoration: none;
+}
+
+.Work-title {
+  font-weight: 700;
+}
