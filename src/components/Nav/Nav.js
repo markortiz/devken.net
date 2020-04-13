@@ -7,10 +7,7 @@ import "./Nav.css";
 
 function Nav() {
 
-  const isActive = (match, location) => {
-      console.log(match, location)
-      return match;
-  }
+  const isActive = match =>  match;
 
   return (
     <header className="App-header">
