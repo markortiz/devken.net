@@ -40,8 +40,8 @@ function Home() {
         <li>CI and CD </li>
       </ul>
       <p>
-        You can visit my <strong><a className="red" href="https://github.com/markortiz" target="_blank">Github</a></strong> if you wanna know what else I'm doing.
-        Or you can also reach me at my <strong><a className="red" href="https://www.linkedin.com/in/mark-ortiz/" target="_blank">LinkedIn</a></strong> and <strong><a className="red" href="mailto:markkennethortiz@gmail.com">markkennethortiz@gmail.com</a></strong>.
+        You can visit my <strong><a className="red" href="https://github.com/markortiz" target="_blank" rel="noopener noreferrer">Github</a></strong> if you wanna know what else I'm doing.
+        Or you can also reach me at my <strong><a className="red" href="https://www.linkedin.com/in/mark-ortiz/" target="_blank" rel="noopener noreferrer">LinkedIn</a></strong> and <strong><a className="red" href="mailto:markkennethortiz@gmail.com">markkennethortiz@gmail.com</a></strong>.
       </p>
     </main>
   );
