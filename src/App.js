@@ -3,7 +3,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  NavLink
 } from 'react-router-dom';
 // Components
 import Home from './components/Home';
@@ -15,14 +15,33 @@ import './App.css';
 
 function App() {
 
+  const isActive = (match, location) => {
+      console.log(match, location)
+      return match;
+  }
+
   return (
     <Router>
       <div className="App">
         <div className="App-wrapper">
           <header className="App-header">
             <nav className="App-menu">
-            <Link className="link active" to="/">Home</Link>
-            <Link className="link" to="/works">My Works</Link>
+              <NavLink 
+                className="link" 
+                activeClassName="active"
+                isActive={isActive}
+                exact={true}
+                to="/">
+                  Home
+              </NavLink>
+              <NavLink 
+                className="link" 
+                activeClassName="active"
+                isActive={isActive}
+                exact={true}
+                to="/works">
+                  My Works
+              </NavLink>
             </nav>
           </header>
           <Switch>
