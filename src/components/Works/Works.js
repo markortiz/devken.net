@@ -10,15 +10,15 @@ function Works() {
     <main className="Work">
       <h1 className="App-title red">Sample Work</h1>
 
-      <a href="#animals" className="Work-item row">
+      <a href="/react-gallery-app" className="Work-item row">
         <figure className="Work-figure col-xs-12 col-md-4">
           <img alt="React Gallery App"
             loading="lazy"
             src={reactGalleryAppSm}/>
         </figure>
         <article className="Work-description col-xs-12 col-md-8">
-          <h2 className="Work-title red">Gallery App with Infinite Scroll</h2>
-          <p>A sample gallery app that consume api from Unsplash that could search, inifinite scroll and have an advance option. </p>
+          <h2 className="Work-title red">React Gallery App</h2>
+          <p>A sample gallery app that consume api from <strong><a className="red" href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash API</a></strong> that could search, inifinite scroll and have an advance search option. </p>
         </article>
       </a>
     </main>
