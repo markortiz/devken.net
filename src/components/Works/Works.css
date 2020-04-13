@@ -2,7 +2,6 @@
   color: #FFFFFF;
   display: flex;
   flex: 1 1 0px;
-  font-size: calc(16px + 0.5vmin);
   transition: transform 500ms;
   margin: 2rem 0;
   border: 1px solid #CC0000;
@@ -32,6 +31,7 @@
 
 .Work-description {
   text-decoration: none;
+  line-height: 1.5;
 }
 
 .Work-title {
