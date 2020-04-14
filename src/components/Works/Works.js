@@ -6,11 +6,15 @@ import './Works.css';
 import reactGalleryAppSm from '../../assets/images/react-app-gallery_sm.png';
 
 function Works() {
+  const generateUrl = subdomain => {
+    const domain = 'devken.net'
+    return `https://${subdomain}.${domain}`;
+  }
   return (
     <main className="Work">
       <h1 className="App-title red">Sample Work</h1>
 
-      <a href="/react-gallery-app" className="Work-item row">
+      <a href={generateUrl`react-gallery-app`} className="Work-item row">
         <figure className="Work-figure col-xs-12 col-md-4">
           <img alt="React Gallery App"
             loading="lazy"
